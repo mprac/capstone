@@ -1,0 +1,18 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% block title %} News {% endblock %}
+{% block script %}
+{% endblock %}
+{% block body %}
+<script type="text/javascript">
+// pass category to REACT app
+    var context ={
+        category: "{{category}}"
+    }
+</script>
+<div class="container">
+    <div id="app"></div>
+</div>
+
+{% endblock %}

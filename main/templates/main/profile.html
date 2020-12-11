@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %} News {% endblock %}
+{% block script %}
+{% endblock %}
+{% block body %}
+<script type="text/javascript">
+// pass logged in user first and last name to REACT app
+var context = {
+    fname: '{{user.first_name}}',
+    lname: '{{user.last_name}}',
+}
+</script>
+<div class="container">
+<div id="profile"></div>
+</div>
+
+{% endblock %}

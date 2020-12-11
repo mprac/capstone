@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %} Discussions {% endblock %}
+{% block script %}
+{% endblock %}
+{% block body %}
+<script type="text/javascript">
+// text was encoded into asci, found this workaround to decode to regular string.
+function decodeHtml(title) {
+    var txt = document.createElement("textarea");
+    txt.innerHTML = title;
+    return txt.value;
+}
+// pass data from server to REACT app
+var title = "{{discussion.article.title}}"
+var context = {
+  title: decodeHtml(title),
+  author: "{{discussion.article.author}}",
+  url: "{{discussion.article.url}}",
+  urltoimage: "{{discussion.article.urltoimage}}",
+  owner: "{{discussion.owner.username}}",
+  user: "{{user}}",
+  membercount: "{{count}}",
+  private: "{{discussion.private}}",
+  discussion_id: "{{discussion.id}}",
+  category: "{{ discussion.category.get.categories}}"
+}
+</script>
+<div class="container">
+  <div id="discussion"></div>
+</div>
+
+{% endblock %}
+

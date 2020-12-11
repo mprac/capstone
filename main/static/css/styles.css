@@ -1,0 +1,185 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #E8E8E8;
+}
+
+.dropdown-item {
+  text-transform: capitalize;
+}
+
+.btn-outline-primary {
+  color: #3B5998;
+  border-color: #3B5998;
+}
+.btn-outline-primary:hover {
+  color: #FAFAFA;
+  background-color: #3B5998;
+  border-color: #3B5998;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active, .show > .btn-outline-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #3B5998;
+  border-color: #3B5998;
+}
+
+.card-body .card-title {
+  font-size: 1.2rem !important;
+  margin-bottom: 0.2rem;
+}
+.card-body .text-secondary {
+  font-size: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.card-body .card-text {
+  font-size: 0.95rem;
+}
+.card-body .show .dropdown-toggle {
+  color: #FAFAFA;
+  background-color: #3B5998;
+  border-color: #3B5998;
+}
+
+#profile .custom {
+  background-color: #FAFAFA;
+}
+
+#discussions .list-group {
+  width: 100%;
+}
+#discussions .input-group-prepend {
+  width: 100%;
+}
+
+#discussion small {
+  cursor: pointer;
+}
+
+.banner-text {
+  background-color: #000;
+  opacity: 65%;
+}
+.banner-text h3 {
+  color: #fff;
+  font-weight: 600;
+  opacity: 100%;
+}
+@media (max-width: 991.98px) {
+  .banner-text h3 {
+    font-size: 20px;
+  }
+}
+.banner-text p {
+  color: #fff;
+}
+
+.discussion-info {
+  border: #000 1px solid;
+  text-align: center;
+}
+.discussion-info p {
+  font-size: 20px;
+}
+
+.wrap {
+  display: flex;
+  background: white;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-bottom: 2rem;
+}
+.wrap .vcenter {
+  margin: auto;
+}
+
+.ar-img img {
+  width: 100%;
+  height: 350px;
+}
+
+.overflow-auto {
+  max-height: 300px;
+}
+
+#app .newssearch {
+  font-size: 20px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#app .display-4, #app .lead {
+  text-transform: capitalize;
+}
+#app .jumbotron {
+  background-color: #E8E8E8;
+  border-bottom: 1px solid #3B5998;
+}
+
+.btn {
+  max-height: 40px;
+}
+
+.reply-list-item {
+  position: relative;
+  display: block;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.text-business {
+  color: #3E2673;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.text-entertainment {
+  color: #FC9D1C;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.text-general {
+  color: #D9A404;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.text-health {
+  color: #A61F2B;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.text-science {
+  color: #F2CB05;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.text-sports {
+  color: #2FC0C7;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.text-technology {
+  color: #82B0D9;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.scrape input {
+  font-size: 20px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scrape-setup .col-form-label {
+  font-weight: bold;
+}
+.scrape-setup .btn {
+  max-height: 100%;
+}
