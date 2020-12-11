@@ -145,5 +145,5 @@ The folder contains 2 subfolders, `templates` and `tmp`. `Templates` has all the
 2. Make and apply migrations by running `python manage.py makemigrations` and `python manage.py migrate`
 3. Create a superuser by running `python manage.py createsuperuser`
 4. Visit http://127.0.0.1:8000/admin and assign super user a profile if you want to use app with superuser account
-5. Visit http://127.0.0.1:8000/admin click on Categorys and save all categories in app to database for app to work
+5. Visit http://127.0.0.1:8000/admin click on Categorys and save all categories in app to database for app to work 
 
