@@ -1,3 +1,5 @@
+Verified Certificate: [Click here](https://courses.edx.org/certificates/238bb7f3771448949035d64e0beb2e41)
+
 # FrontPage | Capstone CS50W
 
 FrontPage, CS50W capstone project is developed using Django, a python framework, reactjs a javascript front-end library and bootstrap 4, a mobile responsive CSS framework. FrontPage is a dynamic website used to discuss current events or topics of interest found in one of the articles retrieved via the NewsAPI, an API that is fetched to retrieve headlines based on a selected category, e.g. Business, entertainment, science, etc. Additionally, FrontPage allows users to scrape data from other news sources by pasting the url of the article of interest into the app, the app attempts to extract the website content from the url and parse the content into the required fields. Once a user finds an interesting article, they can save it and start private or public discussions. In a private discussion, the owner of the discussion can accept, deny, or remove member access to the discussion. Discussions commenting system allows users to post, delete and reply to other comments. 
