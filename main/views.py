@@ -172,7 +172,7 @@ def getNews(request, category):
         return HttpResponseRedirect('/')
     else:
         try:
-            key = '2de4a375ca274e75ba3a89300363b38b'
+            key = 'add-api-key-here'
             api = NewsApiClient(api_key=key)
             news = api.get_top_headlines(country='us', category=category)
             articles = util.prepare_news(news, category)
