@@ -1,4 +1,4 @@
-django==3.0.8
+django==3.1.12
 django-crispy-forms==1.9.2
 newsapi-python==0.2.6
 beautifulsoup4==4.9.3
